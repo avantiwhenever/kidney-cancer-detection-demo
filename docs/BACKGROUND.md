@@ -45,3 +45,6 @@ Realistically: the demo in this repo is a weekend-to-few-weeks project. A real c
 - Add a second modality: a biomedical NLP model over radiology reports, to pair image findings with report text.
 - Add external validation against a second, independent kidney CT dataset.
 - Host the full Gradio app (with Grad-CAM) publicly — free Hugging Face `cpu-basic` Spaces now require a PRO subscription, so the live demo today is a browser-only ONNX version without the heatmap (see `hf_space_static/`). A cheap always-on VM, or PRO, would restore the full app as a public link.
+
+---
+See also: [Run it locally](RUN_LOCALLY.md) · [Experiment with your own data](EXPERIMENT.md) · [How it works](HOW_IT_WORKS.md) · [Back to README](../README.md)
